@@ -1,0 +1,19 @@
+{
+  "name": "estasies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_OPTIONS=--experimental-vm-modules eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lit-labs/eleventy-plugin-lit": "^0.2.2",
+    "@material/mwc-button": "^0.19.1",
+    "axios": "^0.27.2",
+    "lit": "^2.0.2"
+  }
+}
